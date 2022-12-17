@@ -9,15 +9,14 @@ type Date struct {
 	month int
 	day   int
 }
-
 func (d *Date) Year() int {
-   return d.year
+return d.year
 }
 func (d *Date) Month() int {
-   return d.month
+return d.month
 }
 func (d *Date) Day() int {
-   return d.day
+return d.day
 }
 
 func (d *Date) SetYear(year int) error {
