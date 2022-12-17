@@ -9,6 +9,7 @@ type Date struct {
 	month int
 	day   int
 }
+
 func (d *Date) Year() int {
 return d.year
 }
